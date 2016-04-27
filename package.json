@@ -1,0 +1,27 @@
+{
+  "name": "webtorrent-port-issue",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Demonstrating an issue with webtorrent",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --config config/webpack.hot.js --port 3000"
+  },
+  "author": "mrozbarry",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-node5": "^11.0.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "json-loader": "^0.5.4",
+    "standard": "^6.0.8",
+    "standard-loader": "^3.0.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webtorrent": "^0.91.0"
+  }
+}
